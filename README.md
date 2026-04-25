@@ -1,49 +1,31 @@
-# DiseasesPlugin
+# Minecraft Diseases Plugin
 
-Minecraft Paper/Spigot plugin that adds configurable disease mechanics to a server.
+## English
+Minecraft Diseases Plugin adds configurable disease mechanics to a Paper/Spigot server. It is a gameplay extension for administrators who want custom infection/cure commands, permissions, and configurable disease resources.
 
-> The repository is currently named `diesease`; the project itself is **DiseasesPlugin**.
+### Features
+- Disease-related admin commands.
+- Reload, give, infect, and cure actions.
+- Permission-based access control.
+- Configurable plugin resources.
+- Java 17 + Maven build.
 
-## Features
+## Русский
+Minecraft Diseases Plugin добавляет на Paper/Spigot сервер механику болезней. Это gameplay-расширение для серверов, где нужны команды заражения/лечения, permissions и настраиваемые ресурсы.
 
-- Disease-related commands
-- Admin reload/give/infect/cure permissions
-- Configurable plugin resources
-- Maven-based Java 17 build
+### Возможности
+- Админ-команды для механики болезней.
+- Действия reload/give/infect/cure.
+- Система permissions.
+- Настраиваемые ресурсы.
+- Сборка на Java 17 + Maven.
 
-## Requirements
+## Українська
+Minecraft Diseases Plugin додає на Paper/Spigot сервер механіку хвороб. Це gameplay-розширення для серверів, де потрібні команди зараження/лікування, permissions та налаштовувані ресурси.
 
-- Java 17+
-- Paper/Spigot 1.20+
-- Maven
-
-## Build
-
-```bash
-mvn clean package
-```
-
-The compiled plugin jar will be generated in `target/`.
-
-## Commands
-
-```text
-/diseases reload
-/diseases give
-/diseases infect
-/diseases cure
-```
-
-## Permissions
-
-```yaml
-diseases.admin
-diseases.reload
-diseases.give
-diseases.infect
-diseases.cure
-```
-
-## Notes
-
-Do not commit generated build output such as `target/`, `.class`, or `.jar` files. Releases should be uploaded through GitHub Releases.
+### Можливості
+- Адмін-команди для механіки хвороб.
+- Дії reload/give/infect/cure.
+- Система permissions.
+- Налаштовувані ресурси.
+- Збірка на Java 17 + Maven.
